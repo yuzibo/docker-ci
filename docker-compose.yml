@@ -9,4 +9,4 @@ services:
         dockerfile: Dockerfile
         # build host dir with docker dir
     volumes:
-        - './nvme-rootfs:/outport'
+        - './image:/outport'
